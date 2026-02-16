@@ -48,6 +48,6 @@ jobs:
             # Login to ECR on the EC2 instance so it can pull the image
             aws ecr get-login-password --region ${{ env.AWS_REGION }} | docker login --username AWS --password-stdin ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com
             
-            cd ~/my-app
+            cd ~/First Github Actions Node js Application
             docker-compose pull
             docker-compose up -d
