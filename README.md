@@ -2,7 +2,7 @@ Automated CI/CD Deployment with GitHub Actions
 A fully automated "push-to-prod" pipeline for a Node.js application. Every change pushed to the main branch is automatically containerized, pushed to Amazon ECR, and deployed to an AWS EC2 instance via Docker Compose.
 
 🏗️ Architecture
-![Architecture Diagram](./https://github.com/rohanan07/F-Github-Actions-Deploy-Node-Application-/blob/main/Screenshot%202026-02-16%20220653.png)
+![Architecture Diagram](https://github.com/rohanan07/F-Github-Actions-Deploy-Node-Application-/blob/main/Screenshot%202026-02-16%20220653.png)
 
 🚀 The Pipeline Flow
 The CI/CD process is split into two distinct jobs:
