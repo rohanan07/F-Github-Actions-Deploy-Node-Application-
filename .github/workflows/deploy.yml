@@ -6,7 +6,7 @@ on:
 
 env:
   AWS_REGION: ap-south-1                  
-  ECR_REPOSITORY: my-node-app            
+  ECR_REPOSITORY: github-actions-simple-node-app            
 
 jobs:
   build-and-push:
